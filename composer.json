@@ -1,0 +1,32 @@
+{
+    "name": "cwola/jsonc",
+    "description": "Providing parser of Jsonc(JSON with Comments).",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": [
+      "php",
+      "cwola",
+      "json",
+      "jsonc",
+      "JSON with Comments"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "r-jimbo"
+        }
+    ],
+    "require": {
+      "php": "^8.0",
+      "cwola/attribute": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Exception/helpers.php",
+            "src/Jsonc.php"
+        ],
+        "psr-4": {
+            "Cwola\\Jsonc\\": "src/"
+        }
+    }
+}
