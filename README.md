@@ -9,6 +9,11 @@ Providing parser of JSONC(JSON with Comments) for PHP.
 ## Requirement
 - PHP8.0+
 
+## Installation
+```
+composer require cwola/jsonc
+```
+
 ## Usage
 ```
 <?php
